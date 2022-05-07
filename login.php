@@ -24,7 +24,7 @@ $result = mysqli_query($conn, $sql);
 $check = mysqli_fetch_array($result);
 
 if(isset($check)){
-	echo '<h1>Connection is successful</h1>';
+	echo '<h1>HACKED..!</h1>';
 }
 else {
 	echo '<h1>Connection failed.</h1><p>Wrong user credentials</p>';
